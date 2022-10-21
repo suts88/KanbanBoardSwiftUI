@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D515D9F928F05E6A00BC23E5 /* EmptyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515D9F828F05E6A00BC23E5 /* EmptyBoard.swift */; };
 		D5AF852528EE35E8002E54CE /* NavMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF852428EE35E8002E54CE /* NavMenu.swift */; };
 		D5DB8AE928EDD56B00F6A58F /* KanbanBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB8AE828EDD56B00F6A58F /* KanbanBoardApp.swift */; };
 		D5DB8AEB28EDD56B00F6A58F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB8AEA28EDD56B00F6A58F /* HomeView.swift */; };
@@ -15,6 +16,24 @@
 		D5DB8B1428EDD85700F6A58F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D5DB8B1328EDD85700F6A58F /* data.json */; };
 		D5DB8B1B28EDD8FE00F6A58F /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB8B1A28EDD8FE00F6A58F /* ContentModel.swift */; };
 		D5DB8B1D28EDDAD600F6A58F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB8B1C28EDDAD600F6A58F /* Content.swift */; };
+		D5E63B7228F5DAE200C60B33 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6428F5DAE200C60B33 /* PlusJakartaSans-ExtraLight.ttf */; };
+		D5E63B7328F5DAE200C60B33 /* PlusJakartaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6528F5DAE200C60B33 /* PlusJakartaSans-MediumItalic.ttf */; };
+		D5E63B7428F5DAE200C60B33 /* PlusJakartaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6628F5DAE200C60B33 /* PlusJakartaSans-LightItalic.ttf */; };
+		D5E63B7528F5DAE200C60B33 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6728F5DAE200C60B33 /* PlusJakartaSans-SemiBoldItalic.ttf */; };
+		D5E63B7628F5DAE200C60B33 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6828F5DAE200C60B33 /* PlusJakartaSans-ExtraLightItalic.ttf */; };
+		D5E63B7728F5DAE200C60B33 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6928F5DAE200C60B33 /* PlusJakartaSans-BoldItalic.ttf */; };
+		D5E63B7828F5DAE200C60B33 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6A28F5DAE200C60B33 /* PlusJakartaSans-SemiBold.ttf */; };
+		D5E63B7928F5DAE200C60B33 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6B28F5DAE200C60B33 /* PlusJakartaSans-Regular.ttf */; };
+		D5E63B7A28F5DAE200C60B33 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6C28F5DAE200C60B33 /* PlusJakartaSans-Medium.ttf */; };
+		D5E63B7B28F5DAE200C60B33 /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6D28F5DAE200C60B33 /* PlusJakartaSans-ExtraBoldItalic.ttf */; };
+		D5E63B7C28F5DAE200C60B33 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6E28F5DAE200C60B33 /* PlusJakartaSans-ExtraBold.ttf */; };
+		D5E63B7D28F5DAE200C60B33 /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B6F28F5DAE200C60B33 /* PlusJakartaSans-Italic.ttf */; };
+		D5E63B7E28F5DAE200C60B33 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B7028F5DAE200C60B33 /* PlusJakartaSans-Bold.ttf */; };
+		D5E63B7F28F5DAE200C60B33 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E63B7128F5DAE200C60B33 /* PlusJakartaSans-Light.ttf */; };
+		D5E63B8428F5E54E00C60B33 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E63B8328F5E54E00C60B33 /* CustomFonts.swift */; };
+		D5E63B8628F623B300C60B33 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E63B8528F623B300C60B33 /* BoardView.swift */; };
+		D5E63B8828F6317800C60B33 /* BoardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E63B8728F6317800C60B33 /* BoardCard.swift */; };
+		D5E63B8A28F78B9400C60B33 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E63B8928F78B9400C60B33 /* TaskDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D515D9F828F05E6A00BC23E5 /* EmptyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBoard.swift; sourceTree = "<group>"; };
 		D5AF852428EE35E8002E54CE /* NavMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavMenu.swift; sourceTree = "<group>"; };
 		D5DB8AE528EDD56B00F6A58F /* KanbanBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanbanBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DB8AE828EDD56B00F6A58F /* KanbanBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanBoardApp.swift; sourceTree = "<group>"; };
@@ -46,6 +66,25 @@
 		D5DB8B1328EDD85700F6A58F /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		D5DB8B1A28EDD8FE00F6A58F /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		D5DB8B1C28EDDAD600F6A58F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		D5E63B6428F5DAE200C60B33 /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D5E63B6528F5DAE200C60B33 /* PlusJakartaSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D5E63B6628F5DAE200C60B33 /* PlusJakartaSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D5E63B6728F5DAE200C60B33 /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D5E63B6828F5DAE200C60B33 /* PlusJakartaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D5E63B6928F5DAE200C60B33 /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D5E63B6A28F5DAE200C60B33 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D5E63B6B28F5DAE200C60B33 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+		D5E63B6C28F5DAE200C60B33 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		D5E63B6D28F5DAE200C60B33 /* PlusJakartaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D5E63B6E28F5DAE200C60B33 /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D5E63B6F28F5DAE200C60B33 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; };
+		D5E63B7028F5DAE200C60B33 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		D5E63B7128F5DAE200C60B33 /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		D5E63B8128F5DBF300C60B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D5E63B8328F5E54E00C60B33 /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		D5E63B8528F623B300C60B33 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		D5E63B8728F6317800C60B33 /* BoardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCard.swift; sourceTree = "<group>"; };
+		D5E63B8928F78B9400C60B33 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +133,9 @@
 		D5DB8AE728EDD56B00F6A58F /* KanbanBoard */ = {
 			isa = PBXGroup;
 			children = (
+				D5E63B8228F5E53100C60B33 /* Extensions */,
+				D5E63B8128F5DBF300C60B33 /* Info.plist */,
+				D5E63B8028F5DAF700C60B33 /* Fonts */,
 				D5DB8B1728EDD88A00F6A58F /* ViewModel */,
 				D5DB8B1628EDD88200F6A58F /* Model */,
 				D5DB8B1528EDD87100F6A58F /* Views */,
@@ -126,6 +168,10 @@
 			children = (
 				D5DB8AEA28EDD56B00F6A58F /* HomeView.swift */,
 				D5AF852428EE35E8002E54CE /* NavMenu.swift */,
+				D515D9F828F05E6A00BC23E5 /* EmptyBoard.swift */,
+				D5E63B8528F623B300C60B33 /* BoardView.swift */,
+				D5E63B8728F6317800C60B33 /* BoardCard.swift */,
+				D5E63B8928F78B9400C60B33 /* TaskDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,6 +190,35 @@
 				D5DB8B1A28EDD8FE00F6A58F /* ContentModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D5E63B8028F5DAF700C60B33 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5E63B7028F5DAE200C60B33 /* PlusJakartaSans-Bold.ttf */,
+				D5E63B6928F5DAE200C60B33 /* PlusJakartaSans-BoldItalic.ttf */,
+				D5E63B6E28F5DAE200C60B33 /* PlusJakartaSans-ExtraBold.ttf */,
+				D5E63B6D28F5DAE200C60B33 /* PlusJakartaSans-ExtraBoldItalic.ttf */,
+				D5E63B6428F5DAE200C60B33 /* PlusJakartaSans-ExtraLight.ttf */,
+				D5E63B6828F5DAE200C60B33 /* PlusJakartaSans-ExtraLightItalic.ttf */,
+				D5E63B6F28F5DAE200C60B33 /* PlusJakartaSans-Italic.ttf */,
+				D5E63B7128F5DAE200C60B33 /* PlusJakartaSans-Light.ttf */,
+				D5E63B6628F5DAE200C60B33 /* PlusJakartaSans-LightItalic.ttf */,
+				D5E63B6C28F5DAE200C60B33 /* PlusJakartaSans-Medium.ttf */,
+				D5E63B6528F5DAE200C60B33 /* PlusJakartaSans-MediumItalic.ttf */,
+				D5E63B6B28F5DAE200C60B33 /* PlusJakartaSans-Regular.ttf */,
+				D5E63B6A28F5DAE200C60B33 /* PlusJakartaSans-SemiBold.ttf */,
+				D5E63B6728F5DAE200C60B33 /* PlusJakartaSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D5E63B8228F5E53100C60B33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5E63B8328F5E54E00C60B33 /* CustomFonts.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +325,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E63B7728F5DAE200C60B33 /* PlusJakartaSans-BoldItalic.ttf in Resources */,
 				D5DB8AF028EDD56B00F6A58F /* Preview Assets.xcassets in Resources */,
 				D5DB8B1428EDD85700F6A58F /* data.json in Resources */,
+				D5E63B7228F5DAE200C60B33 /* PlusJakartaSans-ExtraLight.ttf in Resources */,
+				D5E63B7C28F5DAE200C60B33 /* PlusJakartaSans-ExtraBold.ttf in Resources */,
+				D5E63B7528F5DAE200C60B33 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */,
+				D5E63B7D28F5DAE200C60B33 /* PlusJakartaSans-Italic.ttf in Resources */,
+				D5E63B7328F5DAE200C60B33 /* PlusJakartaSans-MediumItalic.ttf in Resources */,
+				D5E63B7B28F5DAE200C60B33 /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */,
+				D5E63B7E28F5DAE200C60B33 /* PlusJakartaSans-Bold.ttf in Resources */,
+				D5E63B7F28F5DAE200C60B33 /* PlusJakartaSans-Light.ttf in Resources */,
 				D5DB8AED28EDD56B00F6A58F /* Assets.xcassets in Resources */,
+				D5E63B7A28F5DAE200C60B33 /* PlusJakartaSans-Medium.ttf in Resources */,
+				D5E63B7828F5DAE200C60B33 /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				D5E63B7628F5DAE200C60B33 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */,
+				D5E63B7428F5DAE200C60B33 /* PlusJakartaSans-LightItalic.ttf in Resources */,
+				D5E63B7928F5DAE200C60B33 /* PlusJakartaSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +367,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5DB8AEB28EDD56B00F6A58F /* HomeView.swift in Sources */,
+				D5E63B8828F6317800C60B33 /* BoardCard.swift in Sources */,
 				D5DB8AE928EDD56B00F6A58F /* KanbanBoardApp.swift in Sources */,
+				D5E63B8428F5E54E00C60B33 /* CustomFonts.swift in Sources */,
+				D5E63B8A28F78B9400C60B33 /* TaskDetailView.swift in Sources */,
+				D515D9F928F05E6A00BC23E5 /* EmptyBoard.swift in Sources */,
 				D5DB8B1B28EDD8FE00F6A58F /* ContentModel.swift in Sources */,
+				D5E63B8628F623B300C60B33 /* BoardView.swift in Sources */,
 				D5AF852528EE35E8002E54CE /* NavMenu.swift in Sources */,
 				D5DB8B1D28EDDAD600F6A58F /* Content.swift in Sources */,
 			);
@@ -440,6 +534,7 @@
 				DEVELOPMENT_TEAM = 43QFYQU62X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KanbanBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +564,7 @@
 				DEVELOPMENT_TEAM = 43QFYQU62X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KanbanBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

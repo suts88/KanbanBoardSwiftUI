@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class ContentModel: ObservableObject{
     
@@ -15,8 +16,10 @@ class ContentModel: ObservableObject{
         
         // Create an instance of data service and get the data
         self.boards = ContentModel.getData()
+        
     }
     
+
     static func getData()->[Content]{
         // Parse local json file
         

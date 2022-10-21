@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct KanbanBoardApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView(displayedBoard: "")
+            HomeView(displayedBoard: Content(name: "Preview", columns: [Column(name: "Task", tasks: [Task]())]))
                 .environmentObject(ContentModel())
         }
     }
