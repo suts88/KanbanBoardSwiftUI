@@ -26,6 +26,7 @@ struct BoardView: View {
     
     
     var body: some View {
+        // MARK: body start
         ScrollView(.horizontal, showsIndicators: false){
             HStack(alignment: .top){
                 ForEach(0..<displayedBoard.columns.count, id: \.self){
@@ -40,12 +41,13 @@ struct BoardView: View {
                                 .cornerRadius(20)
                             Text("\(displayedBoard.columns[index].name) (\(taskCount))")
                                 .padding(.leading, 5.0)
-                        }
+                        }//:HStack
                         .padding(.leading, 25)
                         .padding(.bottom)
                         if taskCount > 0 && (!isShowing){
                             ForEach(0..<displayedBoard.columns[index].tasks!.count, id: \.self){
                                 taskIndex in
+                                // MARK: board cards
                                 BoardCard(task: displayedBoard.columns[index].tasks![taskIndex])
                                     .onTapGesture {
                                         isShowing = true
@@ -53,22 +55,22 @@ struct BoardView: View {
                                         indexOfcurrentColumn = index
                                         indexOfTask = taskIndex
                                 }
-                            }
-                        }
+                            }//:ForEach
+                        }//:If
 
-                    }
+                    }//:VStack
                     .padding()
                     .frame(minWidth: 290, maxWidth: 340)
-                }
-            }
+                } //:ForEach
+            } //:HStack
             .ignoresSafeArea( edges: .bottom)
             .padding(.top,25)
             .background(Color("mainBackground"))
-        }
+        }//:ScrollView
         .sheet(isPresented: $isShowing){
             TaskDetailView(task: $touchedTask, isShowing: $isShowing)
         }
-    }
+    }//:body
 
-}
+}//:struct
 
